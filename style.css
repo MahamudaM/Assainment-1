@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body {
   font-family: "Work Sans", sans-serif;
+}
+section{
+  margin-bottom:80px;
 }
 h1,
 h2,
@@ -11,6 +15,7 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +26,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 .container {
   width: 1140px;
   padding-right: 15px;
@@ -62,11 +68,13 @@ h6 {
   border-radius: 5px;
   font-size: 15px;
 }
-.headBtn{
-    display: grid;
-    margin: auto;
-    place-items: center;
+
+.headBtn {
+  display: grid;
+  margin: auto;
+  place-items: center;
 }
+
 .DonatTitle h1 {
   font-size: 34px;
   text-align: center;
@@ -82,11 +90,11 @@ h6 {
 }
 
 .TodayBox {
-    display: flex;
-    width: 600px;
-    margin: auto;
-    margin-bottom: 45px;
-  }
+  display: flex;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 45px;
+}
 
 .TodaySingleBox {
   padding: 29px 12px;
@@ -98,28 +106,143 @@ h6 {
 .DonatTitle {
   margin-top: 100px;
 }
-.TodaySingleBox h3 {font-size: 24px;font-weight: 700;color: #7a7a7a;}
 
-#SpecialBox{
-    background:#ffeeee;
-    border: 2px solid #ff8484e8;
-    color:#ff5959  !important;
-    border-radius:5px;
+.TodaySingleBox h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7a7a7a;
 }
+
+#SpecialBox {
+  background: #ffeeee;
+  border: 2px solid #ff8484e8;
+  color: #ff5959 !important;
+  border-radius: 5px;
+}
+
 .Other.amount {
-    width: 600px;
-    margin: auto;
+  width: 600px;
+  margin: auto;
 }
+
 .OtherCont {
-    text-align: center;
-    margin-bottom: 8px;
-    color: #7a7a7a;
-    font-size: 14px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #7a7a7a;
+  font-size: 14px;
 }
-#position{
-    margin:auto;
+
+#position {
+  margin: auto;
 }
+
 .todayBtn {
-    margin-top: 25px;
-    display: grid;
+  margin-top: 25px;
+  display: grid;
+}
+
+
+.DonatePlanBox {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.PlanBox1 {
+  width: 22%;
+  margin-left: 27px;
+  background: #Edf5f6;
+  padding: 54px 46px;
+}
+
+.planBoxIcon p {
+  color: #ede8e8;
+  font-size: 8px;
+}
+
+.planBoxIcon {
+  margin-bottom: 24px;
+}
+
+.PlanBox1 p {
+  line-height: 20px;
+  font-size: 14px;
+  color: gray;
+}
+
+.PlanBox1 h3 {
+  font-weight: 700;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+#BeautyBox2{
+background:#FFEEEE
+}
+#BeautyBox3{
+  background:#FFF4D6
+}
+.BothContWrap {
+  display: flex;
+}
+
+.leftContent {
+  width: 45%;
+}
+.leftContent2 {
+  width: 45%;
+  margin-left:5%;
+}
+
+.rightImg {
+  width: 45%;
+  margin-left:5%;
+}
+.rightImg2 {
+  width: 45%;
+  
+}
+.rightImg img{
+  width:100%;
+  border-radius:5px;
+}
+.rightImg2 img{
+  width:100%;
+  border-radius:5px;
+}
+
+.leftContent h1 {
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+.leftContent2 h1 {
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+
+.leftContent p {
+  color: gray;
+  margin-bottom: 36px;
+  line-height: 22px;
+  font-size: 18px;
+}
+.leftContent2 p {
+  color: gray;
+  margin-bottom: 36px;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+a.DepandBtn {
+  text-decoration: none;
+  background: #ff5959;
+  padding: 14px 10px;
+  color: white;
+  border-radius: 3px;
+  margin-top: 24px;
+}
+a.SurviveBtn {
+  text-decoration: none;
+  background: #FF5959;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
 }
