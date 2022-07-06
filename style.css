@@ -4,27 +4,27 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-section{
-  margin-bottom:80px;
+
+section {
+  margin-bottom: 80px;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 #headBg {
-  background: url(images/donation1.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: url("images/donation1.jpg") 0% 0% / 100% no-repeat;
 }
 
 .container {
@@ -38,8 +38,7 @@ h6 {
 .hadcont {
   width: 600px;
   color: white;
-  margin: auto;
-  margin-bottom: 28px;
+  margin: auto auto 28px;
 }
 
 .hadcont h1 {
@@ -52,8 +51,8 @@ h6 {
 }
 
 .hadcont p {
-  font-size: 13px;
-  color: #dbd8d8;
+  font-size: 15px;
+  color: #fbf6f6;
   margin-bottom: 9px;
   width: 460px;
   text-align: center;
@@ -62,11 +61,11 @@ h6 {
 .hadBtn {
   text-decoration: none;
   color: white;
-  background: #ff5959;
-  margin-bottom: 80px;
-  padding: 10px 11px;
+  background: rgb(255, 89, 89);
+  margin-bottom: 140px;
+  padding: 15px 20px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .headBtn {
@@ -76,30 +75,29 @@ h6 {
 }
 
 .DonatTitle h1 {
-  font-size: 34px;
+  font-size: 46px;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .DonatTitle p {
+  text-align: center;
+  width: 665px;
   margin: auto;
-  width: 561px;
-  margin-bottom: 40px;
-  font-size: 14px;
-  color: #7a7a7a7a;
+  color: gray;
+  margin-bottom: 50px;
 }
 
 .TodayBox {
   display: flex;
   width: 600px;
-  margin: auto;
-  margin-bottom: 45px;
+  margin: auto auto 45px;
 }
 
 .TodaySingleBox {
   padding: 29px 12px;
   width: 12%;
-  background: #f9f8f8;
+  background: rgb(249, 248, 248);
   margin-left: 15px;
 }
 
@@ -110,14 +108,14 @@ h6 {
 .TodaySingleBox h3 {
   font-size: 24px;
   font-weight: 700;
-  color: #7a7a7a;
+  color: rgb(122, 122, 122);
 }
 
 #SpecialBox {
-  background: #ffeeee;
-  border: 2px solid #ff8484e8;
-  color: #ff5959 !important;
+  background: rgb(255, 238, 238);
+  border: 2px solid rgba(255, 132, 132, 0.91);
   border-radius: 5px;
+  color: rgb(255, 89, 89) !important;
 }
 
 .Other.amount {
@@ -128,7 +126,7 @@ h6 {
 .OtherCont {
   text-align: center;
   margin-bottom: 8px;
-  color: #7a7a7a;
+  color: rgb(122, 122, 122);
   font-size: 14px;
 }
 
@@ -141,21 +139,21 @@ h6 {
   display: grid;
 }
 
-
 .DonatePlanBox {
   display: flex;
   margin-bottom: 120px;
+  margin-top: 58px;
 }
 
 .PlanBox1 {
   width: 22%;
   margin-left: 27px;
-  background: #Edf5f6;
+  background: rgb(237, 245, 246);
   padding: 54px 46px;
 }
 
 .planBoxIcon p {
-  color: #ede8e8;
+  color: gray;
   font-size: 8px;
 }
 
@@ -174,45 +172,53 @@ h6 {
   font-size: 21px;
   margin-bottom: 15px;
 }
-#BeautyBox2{
-background:#FFEEEE
+
+#BeautyBox2 {
+  background: rgb(255, 238, 238);
 }
-#BeautyBox3{
-  background:#FFF4D6
+
+#BeautyBox3 {
+  background: rgb(255, 244, 214);
 }
+
 .BothContWrap {
   display: flex;
+  margin-top: 80px;
 }
 
 .leftContent {
   width: 45%;
 }
+
 .leftContent2 {
   width: 45%;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .rightImg {
   width: 45%;
-  margin-left:5%;
+  margin-left: 5%;
 }
+
 .rightImg2 {
   width: 45%;
-  
 }
-.rightImg img{
-  width:100%;
-  border-radius:5px;
+
+.rightImg img {
+  width: 100%;
+  border-radius: 5px;
 }
-.rightImg2 img{
-  width:100%;
-  border-radius:5px;
+
+.rightImg2 img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .leftContent h1 {
   font-size: 50px;
   margin-bottom: 18px;
 }
+
 .leftContent2 h1 {
   font-size: 50px;
   margin-bottom: 18px;
@@ -224,6 +230,7 @@ background:#FFEEEE
   line-height: 22px;
   font-size: 18px;
 }
+
 .leftContent2 p {
   color: gray;
   margin-bottom: 36px;
@@ -233,16 +240,117 @@ background:#FFEEEE
 
 a.DepandBtn {
   text-decoration: none;
-  background: #ff5959;
+  background: rgb(255, 89, 89);
   padding: 14px 10px;
   color: white;
   border-radius: 3px;
   margin-top: 24px;
 }
+
 a.SurviveBtn {
   text-decoration: none;
-  background: #FF5959;
+  background: rgb(255, 89, 89);
   color: white;
   padding: 10px;
   text-transform: uppercase;
+}
+
+.LiderTitle h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.LiderTitle p {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+.lidPerson1 {
+  width: 30%;
+  margin-left: 38px;
+}
+
+.lidPerson1 a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lidPerson1 img {
+  width: 100%;
+}
+
+.LiderPerson {
+  display: flex;
+  margin-top: 87px;
+}
+
+.UpdatFrom h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.UpdatFrom p {
+  text-align: center;
+}
+
+.child {
+  width: 600px;
+  height: 200px;
+  background: rgb(255, 244, 214);
+  margin: 30px auto auto;
+}
+
+input#Eml {
+  padding: 8px;
+  border: none;
+  margin-top: 80px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  width: 48%;
+  top: 0px;
+  right: -66px;
+}
+
+input#submit {
+  padding: 8px;
+  border: none;
+  margin-top: 80px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  background: rgb(255, 89, 89);
+}
+
+.UpdatFrom p {
+  text-align: center;
+  width: 665px;
+  margin: auto;
+  color: gray;
+}
+
+footer#footerFines {
+  background: black;
+}
+
+footer#footerFines {
+  background: black;
+}
+
+.footer h1 {
+  font-size: 37px;
+  padding: 30px;
+  text-align: center;
+  color: rgb(255, 89, 89);
+}
+
+.spanf {
+  color: rgb(77, 77, 120);
+  padding-top: 10px;
 }
