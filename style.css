@@ -1,64 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    font-family: 'Work Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#headBg{
-    background:url(images/donation1.jpg);
-    background-repeat:no-repeat;
-    background-size:100%;
-   
+#headBg {
+  background: url(images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .container {
-    width: 1140px;
-    padding-right: 15px;
-    padding-left: 15px;  
-    overflow: hidden;
+  width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow: hidden;
+  margin: auto;
 }
 
 .hadcont {
-    width: 600px;
-    color: white;
-    margin: auto;
-    margin-bottom: 120px;
+  width: 600px;
+  color: white;
+  margin: auto;
+  margin-bottom: 28px;
 }
 
 .hadcont h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin-top: 90px;
-    margin-bottom: 30px;
-    width: 600px;
-    text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  width: 600px;
+  text-align: center;
 }
 
 .hadcont p {
-    font-size: 13px;
-    color: #dbd8d8;
-    margin-bottom: 30px;
-    width: 460px;
-    text-align: center;
+  font-size: 13px;
+  color: #dbd8d8;
+  margin-bottom: 9px;
+  width: 460px;
+  text-align: center;
 }
 
-.hadBtn{
-    
-text-decoration: none;
-    
-color: white;
-    
-background: tomato;
-    
-margin-bottom: 80px;
-    
-padding: 10px 11px;
-    
-border-radius: 5px;
+.hadBtn {
+  text-decoration: none;
+  color: white;
+  background: #ff5959;
+  margin-bottom: 80px;
+  padding: 10px 11px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.headBtn{
+    display: grid;
+    margin: auto;
+    place-items: center;
+}
+.DonatTitle h1 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.DonatTitle p {
+  margin: auto;
+  width: 561px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #7a7a7a7a;
+}
+
+.TodayBox {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+.TodaySingleBox {
+  padding: 29px 12px;
+  width: 12%;
+  background: #f9f8f8;
+  margin-left: 15px;
+}
+
+.DonatTitle {
+  margin-top: 100px;
+}
+.TodaySingleBox h3 {font-size: 24px;font-weight: 700;color: #7a7a7a;}
+
+#SpecialBox{
+    background:#ffeeee;
+    border: 2px solid #ff8484e8;
+    color:#ff5959  !important;
+    border-radius:5px;
+}
+.Other.amount {
+    width: 600px;
+    margin: auto;
+}
+.OtherCont {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #7a7a7a;
+    font-size: 14px;
+}
+#position{
+    margin:auto;
+}
+.todayBtn {
+    margin-top: 25px;
+    display: grid;
 }
